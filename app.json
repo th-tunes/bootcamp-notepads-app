@@ -19,9 +19,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "config": {
@@ -33,8 +31,10 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "googleMaps": {
-        "apiKey": "AIzaSyByYyhadmXzV4_mAYkvIvAG0Tt8vKrnxPo"
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyByYyhadmXzV4_mAYkvIvAG0Tt8vKrnxPo"
+        }
       }
     },
     "web": {
